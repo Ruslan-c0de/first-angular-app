@@ -1,0 +1,30 @@
+.firstTable{    
+    border: 2px solid black;   
+    color: red;
+    width: 100%;    
+    border-spacing: 150px 5px;
+    vertical-align: middle;
+    text-align: center;
+        
+    td{
+        border:  1px solid red;
+        height: 35px;
+           
+    }
+}
+.secondTable{
+    border: 2px solid blue;
+    width: 100%;
+    height: auto;    
+    border-collapse: collapse;
+    text-align: center;
+
+    #color{
+        background: green;
+        
+    }
+    
+    td{
+        border: 1px solid black;
+    }
+}
