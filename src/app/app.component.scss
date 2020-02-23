@@ -1,30 +1,13 @@
-.firstTable{    
-    border: 2px solid black;   
-    color: red;
-    width: 100%;    
-    border-spacing: 150px 5px;
-    vertical-align: middle;
-    text-align: center;
-        
-    td{
-        border:  1px solid red;
-        height: 35px;
-           
-    }
-}
-.secondTable{
-    border: 2px solid blue;
-    width: 100%;
-    height: auto;    
-    border-collapse: collapse;
-    text-align: center;
 
-    #color{
-        background: green;
-        
-    }
+.button1 {
+    background-color: #4CAF50;
+    display: flex;     
+    padding: 5px;    
     
-    td{
-        border: 1px solid black;
-    }
+    
+}
+.color{
+    background-color: red;
+    display: flex;  
+    justify-content: space-around;  
 }
